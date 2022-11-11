@@ -1,24 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[8]:
-
-
-import numpy as np
-import cv2 as cv
-import matplotlib.pyplot as plt
-import matplotlib as mpl
-import math as math
-
-I=cv.imread("image.tif") ; 
-IB = cv.imnoise(I,'salt & pepper'); 
-
-plt.imshow(IB)
-
-
-# In[2]:
-
-
 import numpy as np
 import random
 import cv2
